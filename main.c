@@ -7,6 +7,8 @@
 #include "math.h"
 #include "myconio.h"
 
+//comentarios
+
 
 int filas,columnas;
 int **m;
