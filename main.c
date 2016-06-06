@@ -58,12 +58,12 @@ int main(int argc, char const *argv[]) {
  	inicializar_matriz(m);
  	m_print(m);
 
- 	// magia 
+ 	// la magia negra
  	// buscar izq dere
  	// buscar dere izq
  	// buscar arriba abako
  	// buscar abako arriba
- 	// diagonal 
+ 	// diagonales me encargo yo  
 
 
 
