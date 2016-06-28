@@ -87,7 +87,8 @@ int main()
 		printf("Usted ya ingreso ese lugar en filas y columnas\n");
 		goto ref1;
 	}
-	else if ( noMina == 0 )
+	
+	if ( noMina == 0 )
 	{
 		printf("Tu ganaste! \n");
 		system("PAUSE");
