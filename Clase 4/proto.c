@@ -21,6 +21,7 @@ int main()
 {
 	
 	struct Jugador nave;
+	
 	nave.x = 20;
 	nave.y = 10;
 
@@ -39,6 +40,8 @@ int main()
 		{
 				gotoxy(nave.x,nave.y);
 				printf(">");
+
+
 
 			instantiate(nave.x,nave.y);
 		}
