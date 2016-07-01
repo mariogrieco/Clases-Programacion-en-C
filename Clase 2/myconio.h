@@ -3,7 +3,7 @@
 
 #include <windows.h>
 
-#define BLACK            10
+#define BLACK            0
 #define BLUE             0x1
 #define GREEN            0x2
 #define AQUA             0x3
