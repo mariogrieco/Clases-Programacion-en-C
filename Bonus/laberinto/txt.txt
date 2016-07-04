@@ -1,0 +1,24 @@
+como funciona malloc intenamente
+como funciona intenamente sizeof
+numeros primos
+invertir cosas
+carrera de carros con matrices
+el pase raro de variables con referencia
+
+  malloc()
+  free()
+  sizeof()
+  strcmp()
+  strcpy()
+  strlen()
+  puts()
+  gets()
+  getchar()
+  getch()
+  atoi()
+  calloc()
+
+  etc...
+
+    void* new tipo_de_dato[cantidad datos maxima]
+    delete tipo_de_dato

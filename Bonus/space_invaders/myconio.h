@@ -1,4 +1,4 @@
-	#ifndef CONIO_H
+#ifndef CONIO_H
 #define CONIO_H
 
 #include <windows.h>
@@ -28,6 +28,9 @@ void textbgcolor(WORD textcolor, WORD bgcolor);
 void clrscr();
 int kbhit();
 
+int columns, rows;
+
+
 void clrscr(){
     system("cls");
 }
@@ -47,6 +50,12 @@ void gotoxy(int x, int y){
     dwPos.X = x;
     dwPos.Y = y;
     SetConsoleCursorPosition(hConsole, dwPos);
+
+    CONSOLE_SCREEN_BUFFER_INFO csbi;
+
+    GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
+    columns = csbi.srWindow.Right - csbi.srWindow.Left + 1;
+    rows = csbi.srWindow.Bottom - csbi.srWindow.Top + 1;
 }
 
 void textcolor(WORD textcolor){
