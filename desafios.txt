@@ -1,0 +1,8 @@
+1.- en campmin agregarle color a las minas cuando explotan
+2.- en la calculdora sumar una cantidad indefinida de varibles
+3.- en busqdas diagonales bucar no Diagonal de izq a dere si no lo contrario
+4.- Leer los bonus y colaborar en algun proyecto
+5.- Crear por tu cuenta un nuevo proyecto que tengas en mente
+6.- Compartir con tus amigos de la clase tus proyectos en Clases-Programación-en-C subiendolos en este index en una carpeta con tu nombre
+
+actualizado el 4/7/2016
