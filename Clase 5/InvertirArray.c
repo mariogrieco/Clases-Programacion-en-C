@@ -41,6 +41,7 @@ int main(int argc, char const *argv[])
 	for ( i = 0; i < 5; i++)
 	{
 		printf("%i ", arrayImpar[i]);
+		
 	}
 
 	printf("\n");
